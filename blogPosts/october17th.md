@@ -6,8 +6,12 @@ Developer: Raquel Abarca Espinoza
 ### Project name: [Datagrove blog website](https://github.com/datagrovecr/datagrove_blog_website)
 A project with the objective of being a website to upload the blogpost of the developers of Datagrove
 
+[//]: <This phrasing is a bit odd in English. Maybe something like: #### Goal: An interactive website for sharing blog posts about Datagrove development projects>
+
 ### What is Vitepress?
 It is said that VitePress is VuePress (a combination of a minimalistic static site generator with a theming system and a default theme-optimized) little brother.
+
+[//]: <This doesn't tell us a lot about VitePress for someone who is new to coding and VitePress, they may not know what VuePress is, maybe add a description that is more straightforward for example define some of the tings like "static site generator" - what does it mean to be "static" what is the purpose of a "site generator">
 
 > #### What are the improvements that difference Vitepress from VuePress v1:
 > - Leverages Vue 3's improved template static analysis to stringify static content as much as possible.
@@ -21,29 +25,40 @@ It is said that VitePress is VuePress (a combination of a minimalistic static si
 > VitePress is future-oriented: VitePress only targets browsers that support native ES module imports. It encourages the use of native JavaScript without transpilation and CSS variables for theming.
 > You can find more info here: https://vitepress.vuejs.org/guide/what-is-vitepress
 
-### What specifically do I use vitepress for?
-I am using Vitepress to specifically work on creating a website, with only Vitepress I have the chance to create and design a functional site, in my case, a blog site in wich the developers can upload their own blogs with information about on what are they working, how they solve a problem or any other idea o documentation.
+[//]: <This section about the improvements of Vitepress over VuePress use a lot of technical terminology. This isn't very accessible to the newer programmer or someone that doesn't know a lot about creating web sites. Can you restate these in your own less technical words?>
 
-This website will be for Datagrove CR, and my inspiration is from the [Vue blog](https://blog.vuejs.org/) that is also built with VitePress, this site use Vitepress and other element and lenguaje like css, but the idea for now is only use Vitepress and markdown.
+### What specifically do I use vitepress for?
+I am using Vitepress to specifically work on creating a website, with only Vitepress I have the chance to create and design a functional site, in my case, a blog site in which the developers can upload their own blogs with information about what are they working on, how they solved a problem or any other ideas or documentation regarding their work.
+
+This website will be for Datagrove CR, and my inspiration is from the [Vue blog](https://blog.vuejs.org/) that is also built with VitePress, this site use Vitepress and other element and languages like css, but the idea for now is only use Vitepress and markdown for the blog site.
 ![image](https://user-images.githubusercontent.com/110420288/196104431-971f6b47-53e8-4735-a3de-33e1b8433a4e.png)
 
 ### Challenges I have faced
 
-Understand what is Vitepress, how it work and learn how to use it. 
-Creat a project from scratch was complicated, because I had never created one, so I didn’t know witch files I had to add, like the `.gitignore`.
-Understad the code, I try to study, practice and test different code from different websites.
-Another challenge related to the previous point, was find other variables of code for when some dont worked, for example, in the [guide](https://vitepress.vuejs.org/guide/theme-nav), the way to put change the title of the page was with `siteTitle: ‘My Custom Title’`, but that did not work for me, so I search how was that code on the [DatagroveCR website](https://github.com/datagrovecr/website/blob/main/docs/.vitepress/config.js) and I saw that they only use `title: My Cusom Title`.
-I also had problems running the `npm run docs:dev`, first of all, because I always had use only `npm run dev`, but in this file, is necessary put de docs:dev, this because it is declare with that name.
-The problem with running the code was not only the first time, every time that I close the code and another day want to run de code, I was having a problem because the website shows a error or just a white page.
+Understanding what is Vitepress, how it works and learn how to use it. 
+- Creating a project from scratch was complicated, because I had never created one, so I didn’t know which files I had to add, like the `.gitignore`.
+- Understanding the code, so I tried to study, practice and test different code from different websites.
+- Finding other variations of code to try when code from the guides doesn't work, for example, in the [guide](https://vitepress.vuejs.org/guide/theme-nav), the way to change the title of the page was with `siteTitle: ‘My Custom Title’`, but that did not work for me, so I checked how that was done on the [DatagroveCR website](https://github.com/datagrovecr/website/blob/main/docs/.vitepress/config.js) and I saw that this site only used `title: My Cusom Title`.
+
+[//]: <The phrasing and some of the words here are not quite right in English. I tried to rephrase but if it doesn't properly convene your message please feel free to change it again!>
+
+- I also had problems running the `npm run docs:dev`, first of all, because I always had use only `npm run dev`, but in this repository, it is necessary to use `docs:dev`, this because it is declared with that name.
+
+[//]: <Maybe you could add information about where this is declared?>
+
+- Every time that I closed the code and then went to run it on another day the website showed an error or just a white page.I am working to solve this, but I think that the problem was that I did not add the basic files and packages. 
 
 <img width="304" alt="image" src="https://user-images.githubusercontent.com/110420288/196098778-b15b97c5-2a59-4905-85bc-d4c0c5282215.png">
-
-I am working on solve this, but I think that the problem was hat I did not add the basic files and packages. 
 
 ### Things that I learned
 First of all I learned about Vitepress, how to code, add images, logos and to change the title of the website.
 
-Also, I learned that the markdow is basic for Vitepress, for example, my index is only Markdown and only with that have a nice look.
+[//]: <How to code what?>
+
+Also, I learned that the markdown is basic for Vitepress, for example, my index is only Markdown and only with that have a nice look.
+
+[//]: <Phrasing here is again not entirely clear, maybe: I learned that Vitepress only really needs markdown to create a nice basic site. For example with this markdown as my index.md I already have a nice looking site.>
+
 ```
 # Welcome
 # To Datagrove Blog
@@ -61,7 +76,7 @@ In this website you will find blog post that our developers upload about what th
 
 ```
 
-I learned that there are different tipes of menus that Vitepress offer to the developer, in my case I use a menu with different page with this code in the `.vitepress\theme\config.js` file:
+I learned that there are different types of menus that Vitepress offers to the developer, in my case I used this menu that allows navigation to different pages when you put this code in the `.vitepress\theme\config.js` file:
 ```
 import { defineConfig } from 'vitepress'
 
@@ -89,11 +104,11 @@ export default ({
       }
 })
 ```
-Finally I learn that the order of the file actually matter, my file (for now) look like this:
+Finally I learned that the order and structure of the files actually matters, my file (for now) looks like this:
 
 <img width="196" alt="image" src="https://user-images.githubusercontent.com/110420288/196102138-f5628c4c-84e2-4d63-9577-4c42536dd8cc.png">
 
-You can see that it’s important to maintain order, be friendly to the eye, facilitate the location and find the files. but in addition to this, it is important because if the root of our program is missing a file, our entire program will fail.
+You can see that it’s important to maintain order and readability, so that you can find your files. However, in addition to this, it is important because if the root of the program is missing a required file, the entire program will fail.
 
 ### Links with more info:
 
