@@ -54,9 +54,29 @@
 
 ### December 19th
 * Fabián - Present
+* Jafet - Blog Post
 
-### December 26th (No meeting)
-* None
-
-### January 3rd
+### December 27th (No meeting)
 * Andrés - Blog Post
+* Raquel - Blog Post
+
+### January 3rd (No Meeting)
+* Fabián - Blog Post
+* Jafet - Blog Post
+
+### January 9th 
+* Andrés - Blog Post
+* Raquel - Present
+
+### January 16th
+* Fabián - Blog Post
+* Jafet - Present
+
+### January 23rd
+* Andrés - Present
+* Raquel - Blog Post
+
+### January 30th
+* Fabián - Present
+* Jafet - Blog Post
+
