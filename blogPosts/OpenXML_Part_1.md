@@ -114,4 +114,4 @@ Archive:  SampleFile.docx
 
 Then you're completely ready to read the file and learn or try new ways to work with your documents!
   
-[//]: <> October 10th, 2022
+[//]: <> (October 10th, 2022)
