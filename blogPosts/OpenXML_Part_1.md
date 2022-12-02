@@ -113,3 +113,5 @@ Archive:  SampleFile.docx
 <img width="1216" alt="Permissions" src="https://user-images.githubusercontent.com/110683318/194933211-fdd10da9-f271-4f09-92b7-8d75eb9f9f8a.png">
 
 Then you're completely ready to read the file and learn or try new ways to work with your documents!
+  
+[//]: <> (October 10th, 2022)
